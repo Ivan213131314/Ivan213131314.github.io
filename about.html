@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест IQ</title>
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <link rel="stylesheet" href="./dist/css/adaptiv.min.css">
+    <link rel="stylesheet" href="./dist/css/about.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700&family=Roboto:wght@100;700&display=swap"
+        rel="stylesheet">
+
+
+
+
+    <link type="image/x-icon" href="./favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="./favicon.ico" rel="icon">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(85818624, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/85818624" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header_container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./img/logo/brain_logo3.png" alt="">
+                </a>
+
+            </div>
+            <div class="tested">
+                <div class="tested_text">Всего прошло:</div>
+                <div class="tested_count"></div>
+            </div>
+
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="index.html#iq">Что такое IQ Тест</a></li>
+                    <li><a href="myresult.php">Мой результат</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                </ul>
+            </nav>
+            <!-- Мобилка -->
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="index.html">Главная</a></li>
+                    <li><a class="menu__item" href="#pay">Почему платно?</a></li>
+                    <li><a class="menu__item" href="index.html#iq">Что такое IQ тест?</a></li>
+                  
+                    <li><a class="menu__item" href="myresult.php">Мой результат</a></li>
+                    <li><a class="menu__item btn_start2" href="start_test.html">Начать текст</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+    <div class="main_container" style="margin-top:80px">
+
+        <section class="name">
+            <p>Свяжитесь с нами</p>
+        </section>
+
+        <section class="info">
+            <div class="iq_info about_indent" style='text-indent: 0px  !important;'>
+                <div class="form">
+                    <form action="call_back.php" method="post">
+                        <div>
+                            <input type="name" value='Ваше имя' name="name" id="name"><br>
+                            <input type="email" value="Email" name="email" id='email'><br>
+                        </div>
+                        <div>
+                            <p style="font-size: 14px;">Опишите кратко проблему / предложение</p>
+                            <textarea name="textarea" id=""  rows="8"></textarea>
+                        </div>
+                        <button type="submit"  id="send" style="text-align: center;padding-bottom: 5px;">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="name">
+            <p>О нас</p>
+        </section>
+
+        <section class="info">
+            <div class="iq_info">На сегодняшний день IQ Test – это наиболее точная онлайн-платформа, созданная для
+                изучения и оценки интеллектуальных способностей человека. В его основе – уникальное тестирование,
+                объединенное с собственным алгоритмом обработки получаемых данных. Вместе они дают возможность получить
+                максимально точную оценку уровня IQ респондента. Платформа учитывает более 15 различных показателей при
+                подсчете конечного результата: от времени, ушедшего на прохождение каждого задания, до сопоставления
+                полученных данных с результатами других людей.
+
+                Мы можем гордиться тем, что:
+                <ul>
+                    <li> Провели более 2 400 000 тестов</li>
+                    <li> Работаем с респондентами более, чем в 130 странах;</li>
+                    <li> 120 агентств по трудоустройству используют нашу платформу для проведения рекрутинговых
+                        процессов.</li>
+                </ul><br>
+                Наш Email: iq_tester@bk.ru
+            </div>
+        </section>
+
+        <section class="name">
+            <p>Кому нужен наш сервис?</p>
+        </section>
+
+        <section class="info">
+            <div class="iq_info">
+                Наш сервис используется для выяснения своих интеллектуальных способностей и как следствие перспектиктиву хорошей карьеры в жизни
+            </div>
+        </section>
+
+        <section class="name">
+            <p>Почему тестирование платное?</p>
+        </section>
+
+        <section class="info" id="pay">
+            <div class="iq_info">Наш тест не бесплатный. Цена максимально низкая для России и стран СНГ и не превышает 3х долларов. В результате нашей работы мы заметили, что
+                пользователи, оплатившие прохождение теста, более ответственно относятся к его прохождению. Это
+                прекрасный повод не платить сторонним рекламодателям, а значит, всплывающие окна во время прохождения
+                теста не будут отвлекать от решения задач. Такая финансовая поддержка позволяет постоянно
+                совершенствовать платформу, сотрудничать с лучшими специалистами. А это дополнительные возможности
+                оставаться наиболее точным анализатором умственных способностей человека в мире!
+            </div>
+        </section>
+    </div>
+
+
+
+    <footer>
+        <div class="header_container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./img/logo/brain_logo3.png" alt="">
+                </a>
+            </div>
+            <nav class="footer_nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="index.html">
+                            <pre>Что такое IQ Тест<pre></a></li>
+                    <li><a href="terms.html">
+                                    <pre>Условия соглашения</pre>
+                                </a></li>
+                    <li><a href="about.html">О нас</a></li>
+                </ul>
+            </nav>
+            <nav class="footer_icons">
+                <div class="icons">
+                    <img src="./img/icons/visa.png" alt="Visa">
+                    <img src="./img/icons/sumsung.png" alt="Samsung Pay">
+                    <img src="./img/icons/mastercard.png" alt="Master Card">
+                    <img src="./img/icons/apple_pay.png" alt="Apple Pay">
+                </div>
+            </nav>
+
+
+        </div>
+
+    </footer>
+    <script src="./dist/js/burger-min.js"></script>
+    <script src="./dist/js/testedCount-min.js"></script>
+</body>
+
+</html>

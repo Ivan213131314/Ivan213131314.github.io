@@ -1,0 +1,354 @@
+header{
+    
+}
+.payment{
+  display: none;
+  min-height: max-content;
+ 
+    background: rgb(217, 241, 250);
+    border-radius: 17px;
+    padding: 20px 45px;
+    margin-top: 15px;
+    max-width: 900px;
+    
+
+    text-align: start;
+}
+.section_price{
+    display: none;
+}
+.payment h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;;
+}
+.congratulations p{
+    margin-left: auto;
+    height:max-content; 
+    padding:5px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.payment_container{
+   
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding:10px 25px;
+    background-color:rgb(178, 231, 252);
+    border-radius: 5px;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+.payment_container p:last-child{
+    float:left;
+
+    padding:5px 15px;
+    
+    margin-left: 15px;
+}
+.payment_container hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    height: 1.5px;
+    background: #000;
+    background-image: -webkit-linear-gradient(left, rgb(178, 231, 252), rgb(107, 193, 228), rgb(178, 231, 252));
+    background-image: -moz-linear-gradient(left, rgb(178, 231, 252), rgb(107, 193, 228),rgb(178, 231, 252));
+    background-image: -ms-linear-gradient(left, rgb(178, 231, 252), rgb(107, 193, 228), rgb(178, 231, 252));
+    background-image: -o-linear-gradient(left, rgb(178, 231, 252), rgb(107, 193, 228), rgb(178, 231, 252));
+}
+
+
+
+
+#payment_hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0;
+    height: 1px;
+  
+    background-image:-webkit-linear-gradient(left, rgba(178, 231, 252, 0), rgb(180, 178, 178),rgba(178, 231, 252, 0));
+   
+}
+.payment_text{
+    position: relative;
+    height: 30px;
+   
+}
+.payment_header{
+    min-height: 30px;
+    margin-top: 20px;
+}
+.payment_text:first-child{
+    margin-bottom: 33px;
+}
+.payment_text img{
+    position: absolute;
+    top:0;
+    left:-20px;
+    width:33px;
+}
+.payment_text p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.payment_btn_container img{
+    width: 300px;
+}
+.payment_container p:first-child{
+    float:right;
+    background-color:rgb(197, 237, 252);
+    border-radius: 5px;
+    padding:5px 15px;
+    
+}
+.payment_btn_container p{
+    margin-top: 5px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.payment_btn_container{
+    margin-top: 20px;
+    text-align: center;
+}
+.payment_btn{
+    width: 228px;
+    padding:20px 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color:#df1414ec;
+    border-radius: 5px;
+    border:1px solid #e9e9e9;
+    box-shadow:0 3px 6px rgba(0, 0, 0, .3);
+    
+   
+    margin: 0 auto;
+    margin-bottom: 25px;
+
+    color: #262a2c;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+.payment_text_p{
+    width: 190px;
+}
+
+.payment_name{
+    margin-top: 15px;
+}
+.finish{
+    display: none;
+    background: rgb(217, 241, 250);
+    border-radius: 17px;
+    padding: 20px 45px;
+    margin-top: 26px;
+    max-width: 900px;
+    min-height: 300px;
+
+    text-align: center;
+}
+.myresult{
+    background: rgb(217, 241, 250);
+    border-radius: 17px;
+    padding: 20px 45px;
+    margin-top: 26px;
+    max-width: 900px;
+    min-height: 300px;
+
+    text-align: center;
+}
+.quiz-view{
+    width: 400px;
+    margin: 0 auto;
+    
+}
+.quiz-view hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    height: 1px;
+    background: #000;
+    background-image: -webkit-linear-gradient(left, rgb(217, 241, 250), #3b7a92, rgb(217, 241, 250));
+    background-image: -moz-linear-gradient(left, rgb(217, 241, 250), #3b7a92, rgb(217, 241, 250));
+    background-image: -ms-linear-gradient(left, rgb(217, 241, 250), #3b7a92, rgb(217, 241, 250));
+    background-image: -o-linear-gradient(left, rgb(217, 241, 250), #3b7a92, rgb(217, 241, 250));
+    
+}
+.info_about_result{
+    text-align: left;
+    line-height: 1.5;
+}
+.result_info>p:first-child{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.result_info{
+    margin-top: 15px;
+}
+.btn_start_funish{
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 70%;
+    max-width: 400px;
+    height: 45px;
+    margin-top: 30px;
+    background: #cc1717;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/*Селектор до результата*/
+.before{
+    background: rgb(217, 241, 250);
+    border-radius: 17px;
+    padding: 20px 45px;
+    margin-top: 26px;
+    max-width: 900px;
+    min-height: 300px;
+}
+.well_done{
+    padding-left: 0px;
+}
+.well_done h1{
+    margin-bottom: 15px;
+}
+.selectors{
+    
+   
+    margin-top: 20px;
+    text-align: start;
+}
+.selectors>p{
+    text-align:left;
+}
+.selector_item{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.btn_finish{
+    margin-top: 10px;
+    padding: 6px 40px;
+    background: #cc1717;
+    font-size: 15px;
+    font-weight: bold;
+}
+.mail{
+    margin-top: 15px;
+}
+.mail>p{
+    font-size: 12px;
+}
+.mail input{
+    width: 250px;
+    height: 46px;
+    padding: 0 19px;
+    background: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    border: 1px solid rgba(129,134,140,.5);
+    border-radius: 2px;
+}
+.selecting{
+    position: relative;
+    height: 56px;
+    width: 100px;
+    border:1px solid #3b7a92;
+}
+select{
+    height: 40px;
+    padding: 0 0 0 19px;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #fff;
+    border: 1px solid rgba(129,134,140,.5);
+    border-radius: 2px;
+}
+.input_email{
+    max-width: 180px;
+}
+
+/*яндекс оплата*/
+.yoomoney-payment-form .ym-payment-btn-block {
+    margin-top: 0px !important;
+    height: 32px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.yoomoney-payment-form .ym-logo {
+    min-height: 30px;
+    padding-top: 5px !important;
+}
+.ym-payment-btn-block{
+    
+}
+.ym-logo{
+    width: 100px !important;
+}
+
+
+@media only screen and (max-width:385px){
+    .payment_container {
+        width:min-content;
+        margin: 0 auto;
+        margin-top: 15px;
+        padding: 10px 25px;
+        background-color: rgb(178, 231, 252);
+        border-radius: 5px;
+        box-shadow: 1px 0px 6px rgb(0 0 0 / 20%);
+    }
+    .payment_btn_container img {
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width:470px){
+    .quiz-view{
+        width: 100%;
+        margin: 0;
+        
+    }
+    .finish{
+        padding-top: 30px;
+        border-radius: 0px;
+        
+    }
+    .payment{
+  
+        background: rgb(217, 241, 250);
+        border-radius: 17px;
+        padding: 20px 15px;
+        
+    }
+}
+@media only screen and (min-width:936px){
+    .payment{
+        
+    }
+    .congratulations{
+        
+        
+    }
+    .payment_container{
+        
+    }
+}
+@media only screen and (max-width:936px){
+    .finish{
+        padding-top: 30px;
+        border-radius: 0px;
+       
+    }
+    footer{
+        margin-top: 0px;
+    }
+}

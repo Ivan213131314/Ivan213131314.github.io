@@ -1,0 +1,1 @@
+const testedCount=document.getElementsByClassName("tested_count")[0];let currentTestedTimes=()=>{let e=new Date,t=e.getFullYear(),n=e.getMonth(),s=e.getDate();testedCount.innerHTML=6*(160*t+14*n+37*s)};currentTestedTimes();

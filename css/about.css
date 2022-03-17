@@ -1,0 +1,28 @@
+.about_indent{
+    text-indent: 0px  !important;
+}
+#name{
+    margin-bottom: 5px;
+}
+#email{
+    margin-bottom: 15px;
+}
+textarea{
+ 
+    width: 80%;
+    
+}
+#send{
+    border-radius: 20px;
+
+
+    margin-top: 20px;
+    background: #e44848;
+    font-size: 14px;
+    margin-bottom: 15px;
+    
+    padding: 8px 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
